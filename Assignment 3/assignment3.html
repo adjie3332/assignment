@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment 3</title>
+</head>
+<body>
+    <nav>
+        <div class="container text-right">
+            <a href="#">HOME</a>
+            <a href="#">PRODUCT</a>
+            <a href="#">GALLERY</a>
+            <a href="#">BLOG</a>
+            <a href="#">MY INVENTORY</a>
+       </div>
+    </nav>
+    <div class="container">
+        <div class="profile">
+            <img class="img-profile" src="Gambar/logo.jpg" width="150" alt="">
+            <div class="info-profile">
+                <h1 class="nama" id="dataNama">Nama</h1>
+                <p class="role" id="dataRole">Role</p>
+                <button class="btn-blue" onclick="setVisibility('formulir', 'block')">Edit</button>
+                <button class="btn-white"onclick="setVisibility('formulir', 'none')">Resume</button>
+            </div>
+        <div class="biodata">
+            <div class="bio">
+                <b>
+                    <p>Availability</p>
+                    <p>Usia</p>
+                    <p>Lokasi</p>
+                    <p>Pengalaman</p>
+                    <p>Email</p>
+                </b>
+            </div>
+            <div class="data">
+                <p id="dataAvailability">-</p>
+                <p id="dataUsia">-</p>
+                <p id="dataLokasi">-</p>
+                <p id="dataPengalaman">-</p>
+                <p id="dataEmail">-</p>
+            </div>
+        </div>
+    </div>
+    <div id="formulir">
+        <form onsubmit="return false">
+            <label for="nama">Nama</label>
+            <input class="form-control" type="text" id="nama" placeholder="Masukkan Nama"><br>
+            <label for="role">Role</label>
+            <input class="form-control" type="text" id="role" placeholder="Masukkan Role"><br>
+            <label for="availability">Availability</label>
+            <input class="form-control" type="text" id="availability" placeholder="Masukkan Availability"><br>
+            <label for="age">Age</label>
+            <input class="form-control" type="text" id="age" placeholder="Masukkan Usia"><br>
+            <label for="lokasi">Lokasi</label>
+            <input class="form-control" type="text" id="lokasi" placeholder="Masukkan Lokasi"><br>
+            <label for="yearsexperience">Years Experience</label>
+            <input class="form-control" type="number" id="yearsexperience" placeholder="Masukkan Tahun Pengalaman Kerja"><br>
+            <label for="email">Email</label>
+            <input class="form-control" type="text" id="email" placeholder="Masuukan Email">
+            <input type="submit" value="SUBMIT" id="submit" class="btn-submit" onclick="getData()">
+        </form>
+    </div>    
+    </div>
+    <script src="scriptGet.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    background-color: whitesmoke;
+}
+.bg-white {
+    background-color: white;
+}
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+.text-right {
+    display: flex;
+    justify-content: right;
+}
+.wrap-list {
+    float: right;
+}
+nav {
+
+    padding: 10px 0;
+    background-color: white;
+}
+a {
+    text-decoration: none;
+    margin: 0 20px;
+    color: black;
+    font-size: small;
+}
+.profile {
+    display: flex;
+    align-items: flex-start;
+    background-color: white;
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px grey;
+}
+.img-profile {
+    border-radius: 100%;
+}
+.info-profile {
+    margin-left: 30px;
+    padding-right: 150px;
+}
+.nama {
+    font-weight: 700;
+    margin: 10px 0;
+}
+.role {
+    color: grey;
+}
+.btn-blue {
+    background-color: blue;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 0;
+}
+.btn-white {
+    background-color: white;
+    color: green;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 1px solid green;
+}
+.biodata {
+    display: flex;
+    border-left: 2px solid rgb(205, 200, 200);
+    box-sizing: border-box;
+}
+.bio {
+    margin: 0 30px;
+}
+.bio p , .data p {
+    margin: 10px 0;
+}
+form {
+    background-color: white;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-weight: 600;
+}
+input {
+    width: 100%;
+    height: 25px;
+    padding: 0;
+    border: 1px solid rgb(196, 195, 195);
+}
+.btn-submit {
+    margin: 15px 0;
+    background-color: green;
+    color: white;
+    border-radius: 2px;
+    border: 5px solid green;
+}
